@@ -15,7 +15,7 @@ const LazyImageLoad = props => {
     <Suspense
       fallback={
         <div>
-          <img style={{ width: '100%', height: 'auto' }} src={thumbnail} alt='Nike' />
+          <img style={{ width: '100%', height: '100vh' }} src={thumbnail} alt='Nike' />
         </div>
       }
     >

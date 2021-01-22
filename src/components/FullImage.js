@@ -8,7 +8,7 @@ import { string } from 'prop-types';
  */
 const FullImage = props => {
   const { image } = props;
-  return <img style={{ width: '100%', height: 'auto' }} src={image} alt='Nike' />;
+  return <img style={{ width: '100%', height: '100vh' }} src={image} alt='Nike' />;
 };
 
 FullImage.propTypes = {
